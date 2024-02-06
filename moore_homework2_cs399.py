@@ -62,6 +62,7 @@ print(Blake)
 Drew = Student(12347, "Drew Barry","C")
 print(Drew)
 students_list = [Blake, Mark, Drew] #This is a list of students
+Alec = undergraduate(1100, 12348, "Alec Hagopian", "F")
 
 for student in students_list: #this goes through the list of students and prints out their first name
        print(student.name)
